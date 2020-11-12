@@ -8,7 +8,6 @@ public class ComputeAverage {
 		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
-		
 		System.out.println("Enter three variables: ");
 		
 		double firstVariable = input.nextDouble();

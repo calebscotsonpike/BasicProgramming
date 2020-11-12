@@ -14,7 +14,6 @@ public class ComputeArea {
 		System.out.println("Please enter value for radius: ");		
 		// radius = 12;
 		radius = input.nextDouble();
-		
 		area = radius * radius * Math.PI;
 		System.out.println("The area for a circle of radius " + radius + " is " + area);
 		
