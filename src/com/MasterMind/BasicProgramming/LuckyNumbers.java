@@ -28,8 +28,11 @@ public class LuckyNumbers {
         	if (luck) {
         		counter ++;
         	}
-        	System.out.println(i + " is " + luck + "; Counter: " + counter);
+        	//System.out.println(i + " is " + luck + "; Counter: " + counter);
         }
+        in.close();
+        System.out.println(counter);
+        
     }
     
     public static boolean lucky(long num) {

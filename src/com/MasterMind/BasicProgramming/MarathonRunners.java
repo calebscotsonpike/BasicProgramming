@@ -18,8 +18,10 @@ public class MarathonRunners {
 			times.add(time);
 			//System.out.println("Time " + i + " is " + time);
 		}
+		in.close();
 		Collections.sort(times);
 		System.out.println(times.get(0));
+		
 		
 		//System.out.println(times);
 		//for (int j = 0; j < n; j ++) {
